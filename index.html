@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Cinema</title>
+    <link rel="shortcut icon" href="img/Netflix.png" type="image/png"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i> Il Cinema
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Menu -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming</a></li>
+        </ul>
+        <a href="#" class="btn">Sign In</a>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide conatiner">
+                <img src="img/CoffeeImg.png" alt="">
+                <div class="home-text">
+                    <span>Tip of the day</span>
+                    <h1>Need a <br> coffee?</h1>
+                    <a href="https://www.pret.co.uk/en-GB/products/categories/hot-drinks" class="btn" target="new">Find Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+
+                    </a>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide conatiner ams">
+                <img src="img/Amsterdam.png" alt="" style="object-fit: cover;">
+                <div class="home-text">
+                    <span>Travel</span>
+                    <h1>Need a <br> vacation?</h1>
+                    <a href="#" id="countdown" class="btn">00 : 00 : 00 : 00</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+
+                    </a>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide conatiner">
+                <img src="img/Spotify.png" alt="">
+                <div class="home-text">
+                    <span>Music</span>
+                    <h1>Top 100 <br> charts</h1>
+                    <a href="https://open.spotify.com/playlist/0R1ksVtzT7qMUD1UiKrmz2?si=27a8cebd0f924511" class="btn" target="new">Play Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play' ></i>
+
+                    </a>
+                </div>
+            </div>
+            
+          </div>
+        
+          <div class="swiper-pagination"></div>
+    </section>
+    <!-- Movies -->
+    <section class="movies" id="movies">
+        <h2 class="heading">Previously Watched</h2>
+        <!-- Movies Conatiner -->
+        <div class="movies-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/InTime.jpg" alt="">
+                </div>
+            <h3>In Time</h3>
+            <span>Feb 5 2022 | Action</span>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/TheUnforgivable.jpg" alt="">
+            </div>
+            <h3>The Unforgivable</h3>
+            <span>Jan 31 2022 | Drama</span>
+         </div>
+         <!-- Box 3 -->
+         <div class="box">
+            <div class="box-img">
+                <img src="img/MeetJoeBlack.jpg" alt="">
+            </div>
+            <h3>Meet Joe Black</h3>
+            <span>Jan 15 2022 | Romance</span>
+         </div>
+         <!-- Box 4 -->
+         <div class="box">
+            <div class="box-img">
+                <img src="img/Mother.jpg" alt="">
+            </div>
+            <h3>Mother!</h3>
+            <span>Jan 14 2022 | Horror</span>
+         </div>
+        <!-- Box 5 -->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/Whiplash.jpg" alt="">
+            </div>
+            <h3>Whiplash</h3>
+            <span>Jan 13 2022 | Drama</span>
+         </div>
+         
+        </div>
+    </section>
+    <!-- Coming -->
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <!-- Coming Container -->
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="img/StarWarsEp1.jpg" alt="">
+                </div>
+                <h3>Star Wars: Episode 1</h3>
+                <span>TBD | Fantasy</span>
+             </div>
+             <!-- Box 2 -->
+             <div class="swiper-slide box">
+                 <div class="box-img">
+                     <img src="img/BabyDriver.jpg" alt="">
+                 </div>
+                 <h3>Baby Driver</h3>
+                 <span>TBD | Action</span>
+              </div>
+              <!-- Box 3 -->
+              <div class="swiper-slide box">
+                 <div class="box-img">
+                     <img src="img/GoodFellas.jpg" alt="">
+                 </div>
+                 <h3>Good Fellas</h3>
+                 <span>TBD | Drama</span>
+              </div>
+              <!-- Box 4 -->
+              <div class="swiper-slide box">
+                 <div class="box-img">
+                     <img src="img/TheKing.jpg" alt="">
+                 </div>
+                 <h3>The King</h3>
+                 <span>TBD | Drama</span>
+              </div>
+              <!-- Box 5 -->
+              <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="img/IngloriousBasterds.jpg" alt="">
+                </div>
+                <h3>Inglorious Basterds</h3>
+                <span>TBD | Adventure</span>
+             </div>
+             
+            
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get <br>Coffee</h2>
+        <form action="">
+            <input type="email" class="email" placeholder=" Enter Email..." required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i> Il Cinema
+        </a>
+        <div class="social">
+            <a href="https://www.instagram.com/accidentallywesanderson/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.tiktok.com/@osmanvibes/video/7054612042212248838?_t=8PrXMGbBpcD&_r=1" target="new"><i class='bx bxl-tiktok' ></i></a>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Il Cinema All Right Reserved.</p>
+    </div>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link To Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
