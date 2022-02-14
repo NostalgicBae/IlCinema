@@ -1,6 +1,7 @@
 let header = document.querySelector('header');
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+let formBtn = document.getElementById('form-btn');
 
 window.addEventListener('scroll', () => {
   header.classList.toggle('shadow', window.scrollY > 0);
@@ -95,3 +96,8 @@ function tick () {
     document.getElementById('countdown').innerText = time;
   }
 }
+
+formBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank').focus();
+})
